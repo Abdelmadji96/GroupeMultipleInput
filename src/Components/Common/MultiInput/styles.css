@@ -1,0 +1,22 @@
+.elementContainer {
+  background-color: #dedede;
+  border-radius: 25px;
+  box-shadow: 0 0 15px #ededed;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.elementText {
+  color: black;
+  margin: unset;
+  margin-left: 1rem;
+}
+
+.elementContainer .btn {
+  background-color: red;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
