@@ -13,14 +13,11 @@ function App() {
 
   const addMethod = () => {
     const newObject = { titule, price, description, image }
-    console.log('newObject', newObject)
-    console.log('payload', payload)
     setPayload(oldArray => [...oldArray, newObject]);
     resetState();
   }
 
   const removeMethod = (title) => {
-    console.log('title', title);
     const newPayload = payload.filter((item) => item.titule !== title);
     setPayload(newPayload);
   }
@@ -32,7 +29,6 @@ function App() {
     setImage(undefined);
   }
 
-  console.log('payload', payload);
   return (
     <div className="App">
       <header className="App-header">
